@@ -1,0 +1,30 @@
+@media (max-width: 991.98px) {
+  header .container {
+    max-width: 100%;
+  }
+  .banner-section {
+    -webkit-clip-path: polygon(100% 0, 100% 94%, 96% 100%, 0 91%, 0 0);
+            clip-path: polygon(100% 0, 100% 94%, 96% 100%, 0 91%, 0 0);
+  }
+}
+
+@media (max-width: 945.98px) {
+  header .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+@media (max-width: 845.98px) {
+  header .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .banner-section {
+    padding: 4rem 0 10rem 0;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
